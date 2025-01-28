@@ -6,8 +6,30 @@
     font-family: "Poppins", serif;
 }
 
+@media (min-width: 768px) {
+    .content p {
+        font-size: 25px; 
+    }
+
+    .content button {
+        font-size: 15px;
+        padding: 10px 10px; 
+    }
+}
+
+@media (max-width: 768px) {
+    .content p {
+        font-size: 10px;
+    }
+
+    .content button {
+        font-size: 10px;
+    }
+}
+
 .image-container {
     position: relative;
+    overflow: scroll; 
 }
 
 .image {
@@ -21,7 +43,9 @@
     width: 100%; /* Optional for better alignment */
     color: rgb(0, 0, 0);
     font-weight: bold;
+    
 }
+
 .about
 {
     background-color: #e7cddb;
